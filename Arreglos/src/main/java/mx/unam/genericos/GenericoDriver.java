@@ -11,11 +11,7 @@ public class GenericoDriver {
         System.out.println("Título: " +myBoxMoving.getContenido().getTitulo());
         System.out.println("Autor: " + myBoxMoving.getContenido().getAutor());
 
-        ArrayList<Libro> myList = new ArrayList<>();
-        myList.add(new Libro("El Perfume", "Patrik Süskind"));
-        myList.add(new Libro("qwe", "Patrik Süskind"));
-        myList.add(new Libro("Ewere", "Patrik Süskind"));
-        myList.add(new Libro("El tsdfdsf", "Patrik Süskind"));
+
 
 
     }
