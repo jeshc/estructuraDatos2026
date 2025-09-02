@@ -42,5 +42,14 @@ public class ArrayADT<T> {
         System.out.println("");
     }
 
+    public String toString() {
+        String res = "";
+        for (int i = 0; i < this.tamanio; i++) {
+            res += datos[i] + " --> ";
+
+        }
+        return res;
+    }
+
 
 }
