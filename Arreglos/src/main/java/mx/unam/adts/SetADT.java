@@ -13,6 +13,11 @@ public class SetADT <T>{
         return data.size();
     }
 
+    public void agregar(T elemento){
+        if(!this.contiene(elemento)){
+            data.add(elemento);
+        }
+    }
     public boolean contiene(T elemento){
         return data.contains(elemento);
     }
