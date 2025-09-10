@@ -25,6 +25,15 @@ public class SetADT <T>{
     public void eliminar(T elemento){
         data.remove(elemento);
     }
+
+    public String toString(){
+        String resultado= "";
+        for (T t: data){
+            resultado += "," + t.toString();
+        }
+        return resultado;
+    }
+
     // continuar desde aqui
 
 }
