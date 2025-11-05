@@ -16,6 +16,13 @@ public class NodoArbolBinario<T> {
         this.derecho = derecho;
     }
 
+    public NodoArbolBinario(T data, NodoArbolBinario<T> izquierdo) {
+        this.data = data;
+        this.izquierdo = izquierdo;
+    }
+
+
+
     public T getData() {
         return data;
     }
